@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosirxonov's blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="top-bar">
+        <div class="container flex-between">
+            <div class="nav-links">
+                <button id="menu-toggle" class="nav-btn">MAQOLALAR</button>
+            </div>
+            <div class="logo-small">NOSIRXONOV<span class="purple-text"> 's blog</span></div>
+        </div>
+    </nav>
+
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <h3>MAQOLALAR</h3>
+                <button id="close-menu" class="close-btn">&times;</button>
+            </div>
+            <ul id="post-list" class="post-list-menu">
+            </ul>
+        </div>
+    </aside>
+
+    <div id="overlay" class="overlay"></div>
+
+    <main class="container main-content">
+        <article id="active-post" class="post-view">
+            <h1 id="main-title">Yuklanmoqda...</h1>
+            <div class="post-meta" id="main-date"></div>
+            <div class="post-body" id="main-content"></div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nosirxonov's blog | Jonibek Nosirxonov</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
